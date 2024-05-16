@@ -2,7 +2,7 @@
 
 const express = require('express');
 const router = express.Router();
-const Mentor = require('../models/mentor');
+const Mentor = require('../models/Mentor');
    
 // Route to create a new mentor
 router.post('/', async (req, res) => {
